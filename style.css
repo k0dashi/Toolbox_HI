@@ -21,6 +21,7 @@ h2 {
   font-size: 20px;
   text-align: right;
   line-height: 30px;
+  margin-bottom: 50px;
 }
 
 .split {
@@ -30,6 +31,7 @@ h2 {
   z-index: 1;
   top: 0;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .left {
@@ -57,7 +59,7 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  
 }
 
 .blob01 {
