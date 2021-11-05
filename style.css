@@ -8,10 +8,9 @@ h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  line-height: 65px;
   text-align: right;
   text-transform: uppercase;
-
+  margin-bottom: -15px;
   color: #ffffff;
 }
 
@@ -20,18 +19,9 @@ h2 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   text-align: right;
+  line-height: 30px;
 }
-
-.main-header {
-  position: absolute;
-  width: 400px;
-  height: 59px;
-  left: 19px;
-  top: 263px;
-}
-
 
 .split {
   height: 100%;
@@ -40,7 +30,6 @@ h2 {
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 20px;
 }
 
 .left {
@@ -69,23 +58,6 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
-.leftDog{
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  right:0px;
-}
-.imageLeft {
-  width:100%; 
-  right:100%;
-  margin-right: -50%;
-  bottom: -40px
-}
-
-.centered img {
-  width: 150px;
-  border-radius: 50%;
 }
 
 .blob01 {
