@@ -73,7 +73,6 @@ h2 {
 .leftDog{
   position: absolute;
   width: 50%;
-  height: 100%;
   right:0px;
 }
 .imageLeft {
@@ -81,11 +80,6 @@ h2 {
   right:100%;
   margin-right: -50%;
   bottom: -40px
-}
-
-.centered img {
-  width: 150px;
-  border-radius: 50%;
 }
 
 .blob01 {
