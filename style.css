@@ -60,11 +60,6 @@ h2 {
   text-align: center;
 }
 
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
-
 .blob01 {
   position: absolute;
   width: 60%;
