@@ -7,9 +7,9 @@ h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  line-height: 65px;
   text-align: right;
   text-transform: uppercase;
+  margin-bottom: -15px;
   color: #ffffff;
   margin-bottom: -15px;
 }
@@ -19,8 +19,9 @@ h2 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   text-align: right;
+  line-height: 30px;
+  margin-bottom: 50px;
 }
 
 .main-header {
@@ -38,7 +39,7 @@ h2 {
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 20px;
+  overflow-y: hidden;
 }
 
 .left {
