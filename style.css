@@ -9,7 +9,6 @@ h1 {
   font-size: 48px;
   text-align: right;
   text-transform: uppercase;
-  margin-bottom: -15px;
   color: #ffffff;
   margin-bottom: -15px;
 }
@@ -143,7 +142,7 @@ h2 {
   top: calc(35% - 92px / 2 + 34px);
 }
 
-.another {
+.generate-checkIn-button {
   position: fixed;
   width: 198px;
   height: 52px;
@@ -176,12 +175,21 @@ h2 {
   mix-blend-mode: normal;
 }
 
+/* parent */
+.energizer-content-holder {
+  position: relative;
+  width: 1100px;
+  height: 1100px;
+  left: 25%;
+  top: 10%;
+  align-self: center;
+}
+
 .generate-energizer-button {
-  position: fixed;
+  position: relative;
   width: 198px;
   height: 52px;
-  left: calc(50% - 198px / 2 + 84px);
-  top: calc(50% - 52px / 2 + 65px);
+  margin-bottom: 10px;
   background: #9dc9c6;
   border: 3px solid #ffffff;
   box-sizing: border-box;
@@ -195,4 +203,44 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.body-text-holder {
+  position: static;
+  width: 100vh;
+  height: 100vh;
+  border-radius: 30px;
+  background-color: white;
+}
+
+/* text-fields */
+.display-energizer {
+  position: relative;
+  width: 529px;
+  height: 38px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.present-energizer {
+  position: relative;
+  width: 529px;
+  height: 38px;
+  margin-bottom: 10px;
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
 }
