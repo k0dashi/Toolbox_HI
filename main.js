@@ -19,7 +19,5 @@ function generate_question() {
   random_index = Math.floor(Math.random() * checkIns.length);
 
   selected_check_in = checkIns[random_index];
-
-  document.getElementById("text").value = selected_check_in;
   document.getElementById("MyText").innerHTML = selected_check_in;
 }
