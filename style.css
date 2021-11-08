@@ -86,7 +86,6 @@ h2 {
   border-radius: 50%;
 }
 
-
 .blob01 {
   position: absolute;
   width: 60%;
@@ -101,14 +100,13 @@ h2 {
   right: -10px;
 }
 
-<<<<<<< HEAD
 .triangle_left {
   margin-left: 220px;
 }
-=======
-/* check-in page */
 
-.check-in {
+/* -------------- Check-in page -------------*/
+
+.check-in-page-main {
   height: 100%;
   width: 100%;
   position: fixed;
@@ -119,37 +117,48 @@ h2 {
   mix-blend-mode: normal;
 }
 
-h2 {
+.check-in-page-parent {
+  position: relative;
+  width: 1100px;
+  height: 1100px;
+  left: 40%;
+  top: 30%;
+  align-self: center;
+}
+
+.present-question-text {
+  position: relative;
+  width: 529px;
+  height: 38px;
+  margin-bottom: 10px;
   font-family: "Encode Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
-  text-align: right;
+  text-align: left;
+  margin-top: 30px;
 }
 
-.today {
-  position: absolute;
+.check-in-question-text {
+  position: relative;
   width: 529px;
   height: 38px;
-  left: calc(19% - 198px / 2 + 84px);
-  top: calc(30% - 92px / 2 + 34px);
-}
-
-.question {
-  position: absolute;
-  width: 686px;
-  height: 61px;
-  left: calc(30% - 198px / 2 + 84px);
-  top: calc(35% - 92px / 2 + 34px);
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 25px;
 }
 
 .generate-checkIn-button {
-  position: fixed;
+  position: relative;
   width: 198px;
   height: 52px;
-  left: calc(50% - 198px / 2 + 84px);
-  top: calc(50% - 52px / 2 + 65px);
   background: #7e6f9c;
   border: 3px solid #ffffff;
   box-sizing: border-box;
@@ -159,12 +168,13 @@ h2 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  text-align: center;
+
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 30px;
 }
 
-/* Energizer page */
+/* ----------- Energizer page -----------*/
 
 .energizer-body {
   height: 100%;
@@ -246,4 +256,3 @@ h2 {
   text-align: left;
   margin-top: 30px;
 }
->>>>>>> 7f3677bc27acc4e5c5bf7bc369445feb2189f3d2
