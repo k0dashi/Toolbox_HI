@@ -21,4 +21,5 @@ function generate_question() {
   selected_check_in = checkIns[random_index];
 
   document.getElementById("text").value = selected_check_in;
+  document.getElementById("MyText").innerHTML = selected_check_in;
 }
