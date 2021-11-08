@@ -86,6 +86,7 @@ h2 {
   border-radius: 50%;
 }
 
+
 .blob01 {
   position: absolute;
   width: 60%;
@@ -100,6 +101,11 @@ h2 {
   right: -10px;
 }
 
+<<<<<<< HEAD
+.triangle_left {
+  margin-left: 220px;
+}
+=======
 /* check-in page */
 
 .check-in {
@@ -240,3 +246,4 @@ h2 {
   text-align: left;
   margin-top: 30px;
 }
+>>>>>>> 7f3677bc27acc4e5c5bf7bc369445feb2189f3d2
