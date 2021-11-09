@@ -1,6 +1,7 @@
 body {
   color: white;
 }
+
 h1 {
   font-family: Nunito;
   font-style: normal;
@@ -11,6 +12,7 @@ h1 {
   color: #ffffff;
   margin-bottom: -15px;
 }
+
 h2 {
   font-family: "Encode Sans";
   font-style: normal;
@@ -20,6 +22,7 @@ h2 {
   line-height: 30px;
   margin-bottom: 50px;
 }
+
 .split {
   height: 100%;
   width: 50%;
@@ -29,11 +32,13 @@ h2 {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
 .left {
   left: 0;
   background: linear-gradient(180deg, #abd2d0 0%, #427d7a 100%);
   mix-blend-mode: normal;
 }
+
 .right {
   right: 0;
   background: linear-gradient(180deg, #b6aacf 0%, #554478 100%);
@@ -50,26 +55,31 @@ h2 {
   background: #FBFAFA;
 }
 
+
 #leftBlock {
   position: absolute;
   top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
 }
+
 #rightBlock {
   position: absolute;
   top: 50%;
   left: 65%;
   transform: translate(-50%, -50%);
 }
+
+
 .leftDog {
   position: absolute;
   width: 100%;
   height: 100%;
   margin-left: 50%;
+  
 }
 #imageLeft {
-  position: absolute;
+  position:absolute;
   width: 100%;
   bottom: 0px;
 }
@@ -78,29 +88,52 @@ h2 {
   width: 100%;
   height: 100%;
   margin-left: -50%;
+  
 }
 #imageRight {
-  position: absolute;
+  position:absolute;
   width: 100%;
   bottom: 0px;
 }
+
 .blob01 {
   position: absolute;
   width: 60%;
   left: -70px;
   bottom: -40px;
 }
+
 .blob02 {
   width: 60%;
   position: absolute;
   top: -10px;
   right: -10px;
 }
+
 .triangle_left {
   margin-left: 220px;
 }
-
 /* -------------- Check-in page -------------*/
+#check-in {
+  width: 40%;
+}
+.button_back {
+margin-left:30px;
+margin-top:30px;
+}
+
+.checkinDog{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  margin-left: -10%;
+  z-index: 1;
+}
+#imageCheckin {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
 
 .check-in-page-main {
   height: 100%;
@@ -109,6 +142,7 @@ h2 {
   left: 0;
   top: 0;
   overflow-x: hidden;
+  overflow-y: hidden;
   background: linear-gradient(180deg, #b6aacf 0%, #554478 100%);
   mix-blend-mode: normal;
 }
@@ -117,9 +151,10 @@ h2 {
   position: relative;
   width: 1100px;
   height: 1100px;
-  left: 20%;
-  top: 30%;
+  left: 45%;
+  top: 20%;
   align-self: center;
+  z-index: 2;
 }
 
 .present-question-text {
@@ -137,7 +172,7 @@ h2 {
 
 .check-in-question-text {
   position: relative;
-  width: 800px;
+  width: 70%;
   text-align: left;
   font-family: Nunito;
   font-style: normal;
@@ -145,12 +180,14 @@ h2 {
   font-size: 48px;
   text-align: left;
   color: #ffffff;
-  margin-top: 25px;
+  margin-top: 15px;
   background-color: transparent;
 }
 
 .generate-checkIn-button {
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
   width: 198px;
   height: 52px;
   background: #7e6f9c;
@@ -164,7 +201,7 @@ h2 {
   font-size: 20px;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 /* ----------- Energizer page -----------*/
