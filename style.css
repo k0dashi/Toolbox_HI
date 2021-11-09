@@ -45,6 +45,16 @@ h2 {
   mix-blend-mode: normal;
 }
 
+#centerBlock {
+  position: fixed;
+  margin-left: 49.4%;
+  width: 8px;
+  height: 100%;
+  top: 0px;
+  z-index: 2;
+  background: #FBFAFA;
+}
+
 #leftBlock {
   position: absolute;
   top: 50%;
