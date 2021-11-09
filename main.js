@@ -14,7 +14,7 @@ let workClicked = false;
 let activities = [
   {
     name: "What’s one thing that brings you energy and joy",
-    tags: ["fun", "work", "connection"],
+    tags: ["work"],
   },
 
   {
@@ -33,22 +33,43 @@ let activities = [
   },
   {
     name: "What color represents me and my personality?",
+    tags: ["conection"],
+  },
+
+  {
+    name: "Fun",
     tags: ["fun"],
   },
+
   {
-    name: "What is your favorite item you’ve bought this year?",
+    name: "Funny",
+    tags: ["fun"],
+  },
+
+  {
+    name: "Funniest",
+    tags: ["fun"],
+  },
+
+  {
+    name: "Funny??",
+    tags: ["fun"],
+  },
+
+  {
+    name: "Connection",
     tags: ["connection"],
   },
   {
-    name: "Hello?",
+    name: "Hello? Connection",
     tags: ["connection"],
   },
   {
-    name: "Testing",
+    name: "Con",
     tags: ["connection"],
   },
   {
-    name: "What fruit are you????",
+    name: "Connecting",
     tags: ["connection"],
   },
 ];
@@ -119,9 +140,3 @@ connection.addEventListener("click", function () {
 
   connectionClicked = !connectionClicked;
 });
-
-// document.getElementById("savebutton").addEventListener("click", (e) => {
-//   e.preventDefault();
-//   document.querySelector(".modal-content").style.display = "none";
-//   document.getElementById("everythingbutmodal").style.opacity = "1";
-// });

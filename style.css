@@ -126,6 +126,7 @@ h2 {
   margin-left: -6%;
   margin-top: 10px;
   z-index: 1;
+  overflow: hidden;
 }
 
 #imageCheckin {
