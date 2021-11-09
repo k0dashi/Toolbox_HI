@@ -47,7 +47,7 @@ h2 {
   height: 100%;
   top: 0px;
   z-index: 2;
-  background: #FBFAFA;
+  background: #fbfafa;
 }
 
 #leftBlock {
@@ -164,6 +164,43 @@ h2 {
   font-size: 20px;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 30px;
+}
+
+.modal-content {
+  height: fit-content;
+  width: auto;
+  background-color: #2434a9;
+  border-radius: 40px;
+  padding: 25px;
+  position: absolute;
+  top: 50%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  text-align: left;
+  padding-right: 20px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.checkbox {
+  cursor: pointer;
+  position: relative;
+  width: 529px;
+  height: 38px;
+  margin-bottom: 10px;
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
   margin-top: 30px;
 }
 

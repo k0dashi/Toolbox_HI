@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
+
     <title>Check-in Questions</title>
     <link
       rel="shortcut icon"
@@ -24,20 +24,38 @@
   <body>
     <div class="check-in-page-main">
       <div class="check-in-page-parent">
+        
         <div class="present-question-text">
           Your check-in question for today:
         </div>
 
-        <div id="MyText" class="check-in-question-text">result</div>
+        <div id="Check-in-text" class="check-in-question-text">What’s one thing that brings you energy and joy</div>
 
-        <button
-          onclick="generate_question()"
-          id="generate"
-          class="generate-checkIn-button"
-        >
-          GET ANOTHER
-        </button>
+        <div id="generateButton">
+          <button href="#" class="generate-checkIn-button">GET ANOTHER</button>
+        </div>
+
+        <div id="filterbutton">
+          <button href="#" class="generate-checkIn-button">Filter</button>
+        </div>
+        
+        <div id="filter-pop-up">
+          <ul>
+            <h3>Filters</h3>
+            <input type="checkbox" id="work" name="Work" class="checkbox">
+            <label for="Work" class="checkbox-font">Work</label>
+            <input type="checkbox" id="fun" name="Fun" class="checkbox">
+            <label for="Fun">Fun</label>
+            <input type="checkbox" id="connection" name="Connection" class="checkbox">
+            <label for="Connection">Connection</label>
+          </ul>
+          <div> 
+            <button id="savebutton" class="link buzz-out-on-hover">Save</button>
+          </div>
+
       </div>
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
