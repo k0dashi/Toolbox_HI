@@ -93,6 +93,7 @@ h3 {
   height: 100%;
   margin-left: -50%;
 }
+
 #imageRight {
   position: absolute;
   width: 100%;
@@ -243,16 +244,16 @@ h3 {
 /* Modal Content/Box */
 
 #savebutton {
-position: relative;
-cursor: pointer;
-width: 169px;
-height: 52px;
-background: #4A3C67;
-border: 3px solid #4A3C67;
-box-sizing: border-box;
-box-shadow: 0px 8px 10px rgba(74, 60, 103, 0.2);
-border-radius: 35px;
-font-family: Encode Sans;
+  position: relative;
+  cursor: pointer;
+  width: 169px;
+  height: 52px;
+  background: #4a3c67;
+  border: 3px solid #4a3c67;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 10px rgba(74, 60, 103, 0.2);
+  border-radius: 35px;
+  font-family: Encode Sans;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -266,14 +267,14 @@ font-family: Encode Sans;
 }
 
 .filter_header {
-  position:relative;
+  position: relative;
   margin-top: 20px;
   text-align: center;
 }
 /* The Close Button */
 .close {
   font-family: Nunito;
-  color:#4A3C67;
+  color: #4a3c67;
   float: right;
   font-size: 34px;
   font-weight: bold;
@@ -295,12 +296,12 @@ font-family: Encode Sans;
   padding: 0;
   width: 444px;
   height: 444px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 10px 12px rgba(65, 58, 80, 0.5);
   border-radius: 30px;
   animation-name: animatetop;
   animation-duration: 0.4s;
-  color: #4A3C67;
+  color: #4a3c67;
   margin-top: 20%;
 }
 
@@ -332,16 +333,16 @@ font-family: Encode Sans;
   height: 32px;
   width: 32px;
   background-color: white;
-  border: 3px solid #4A3C67;
+  border: 3px solid #4a3c67;
   border-radius: 50%;
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #4A3C67;
+  background-color: #4a3c67;
 }
 
 .container input:checked ~ .checkmark {
-  background-color: #4A3C67;
+  background-color: #4a3c67;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -358,12 +359,12 @@ font-family: Encode Sans;
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
- 	top: 12px;
-	left: 12px;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: white;
+  top: 12px;
+  left: 12px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
 }
 
 @keyframes animatetop {
