@@ -183,6 +183,7 @@ h2 {
 
 .generate-checkIn-button {
   position: relative;
+  cursor: pointer;
   width: 198px;
   height: 52px;
   background: #7e6f9c;
@@ -201,6 +202,10 @@ h2 {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   transform: translate(-50%, -50%);
+}
+
+.generate-checkIn-button:active {
+  background: #4a3c67;
 }
 
 .filter_icon {
