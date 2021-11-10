@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
+  
 
     <title>Generator</title>
     <link
@@ -51,16 +51,17 @@
        
       </div>
 
-
-
       <div class="energizer-content-holder">
         <div class="present-energizer">Your energizer of the day:<div>
-        <div class="display-energizer">[ Bang Bang Bang]</div>
-        <button class="generate-energizer-button">GET ANOTHER</button>
+        <div id="Energizer-title", class="display-energizer">[ Bang Bang Bang]</div>
+        <button onclick="generateEnergizer()", class="generate-energizer-button">GET ANOTHER</button>
 
         <!-- body text -->
-        <div class="body-text-holder"></div>
+        <div class="body-text-holder">
+          <p id="body-text" class="body-text"> Test </p>
+        </div>
       </div>
     </div>
   </body>
+  <script src="energizer.js"></script>
 </html>
