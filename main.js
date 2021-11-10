@@ -173,36 +173,36 @@ function generateQuestion() {
   }
 }
 
-let fun = document.getElementById("fun");
-fun.addEventListener("click", function () {
-  if (!funClicked) {
-    filters.push("fun");
-  } else {
-    filters = filters.filter((x) => x != "fun");
-  }
+// let fun = document.getElementById("fun");
+// fun.addEventListener("click", function () {
+//   if (!funClicked) {
+//     filters.push("fun");
+//   } else {
+//     filters = filters.filter((x) => x != "fun");
+//   }
 
-  funClicked = !funClicked;
-});
+//   funClicked = !funClicked;
+// });
 
-let connection = document.getElementById("connection");
-connection.addEventListener("click", function () {
-  if (!connectionClicked) {
-    filters.push("connection");
-  } else {
-    filters = filters.filter((x) => x != "connection");
-  }
-  connectionClicked = !connectionClicked;
-});
+// let connection = document.getElementById("connection");
+// connection.addEventListener("click", function () {
+//   if (!connectionClicked) {
+//     filters.push("connection");
+//   } else {
+//     filters = filters.filter((x) => x != "connection");
+//   }
+//   connectionClicked = !connectionClicked;
+// });
 
-let work = document.getElementById("work");
-work.addEventListener("click", function () {
-  if (!workClicked) {
-    filters.push("work");
-  } else {
-    filters = filters.filter((x) => x != "work");
-  }
-  workClicked = !workClicked;
-});
+// let work = document.getElementById("work");
+// work.addEventListener("click", function () {
+//   if (!workClicked) {
+//     filters.push("work");
+//   } else {
+//     filters = filters.filter((x) => x != "work");
+//   }
+//   workClicked = !workClicked;
+// });
 
 // Modal-window-----
 var modal = document.getElementById("myModal");
