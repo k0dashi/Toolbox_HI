@@ -104,7 +104,7 @@ let activities = [
     name: "	You can have an unlimited supply of one thing for the rest of your life, what is it?	",
     tags: ["fun"],
   },
-  { name: "		", tags: ["		"] },
+
   { name: "	What's my biggest learning or insight from today?	", tags: ["work"] },
   { name: "	What do I choose to do differently next time?	", tags: ["work"] },
   {
