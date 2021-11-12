@@ -303,13 +303,9 @@ h3 {
   border-radius: 30px;
   animation-name: animatetop;
   animation-duration: 0.4s;
-<<<<<<< HEAD
   color: #4A3C67;
 margin: auto;
 margin-top: 10%;
-=======
-  color: #4a3c67;
->>>>>>> 92acf04cb19aa6c5f96447fdfd5906bca1bb0726
 }
 
 .filter_header {
@@ -376,21 +372,12 @@ margin-top: 10%;
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
-<<<<<<< HEAD
- 	top: 8px;
-	left: 8px;
-	width: 16px;
-	height: 16px;
-	border-radius: 50%;
-	background: white;
-=======
   top: 12px;
   left: 12px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
   background: white;
->>>>>>> 92acf04cb19aa6c5f96447fdfd5906bca1bb0726
 }
 
 @keyframes animatetop {
