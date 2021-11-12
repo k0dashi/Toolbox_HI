@@ -236,7 +236,6 @@ h3 {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
-  align-items: center;
   justify-content: center;
 }
 
@@ -291,7 +290,6 @@ font-family: Encode Sans;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 0px;
-  margin: 30px 30px 0px 30px;
   width: 444px;
   height: 444px;
   overflow: hidden;
@@ -300,6 +298,8 @@ font-family: Encode Sans;
   animation-name: animatetop;
   animation-duration: 0.4s;
   color: #4A3C67;
+margin: auto;
+margin-top: 10%;
 }
 
 .filter_header {
@@ -341,6 +341,9 @@ margin-left: 40px;
   border-radius: 50%;
 }
 
+#filtertext {
+  margin-left: 20px;
+}
 .container:hover input ~ .checkmark {
   background-color: #4A3C67;
 }
@@ -363,10 +366,10 @@ margin-left: 40px;
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
- 	top: 12px;
-	left: 12px;
-	width: 8px;
-	height: 8px;
+ 	top: 8px;
+	left: 8px;
+	width: 16px;
+	height: 16px;
 	border-radius: 50%;
 	background: white;
 }
