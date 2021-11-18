@@ -406,13 +406,28 @@ h3 {
   background: linear-gradient(180deg, #abd2d0 0%, #427d7a 100%);
   mix-blend-mode: normal;
 }
+.energyDog {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: visible;
+  margin-left: 70%;
+  margin-top:5%;
+  z-index: 1;
+}
+
+#imageEnergy {
+  position: absolute;
+  width: 90%;
+  bottom: 0px;
+}
 
 /* parent */
 .energizer-content-holder {
   position: relative;
   width: 1100px;
   height: 1100px;
-  top: 10%;
+  top: 5%;
   margin-bottom: 30px;
   left: 25%;
   /* set dynamic */
