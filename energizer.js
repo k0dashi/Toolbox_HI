@@ -9,16 +9,16 @@ let energizers = [
   },
   {
     titel: "	Collaborative portraits	",
-    body: "Everyone needs a <h1> piece </h1>  of paper and a pen or pencil for this activity. They should write their name on the bottom of their paper. Now everyone needs to wander around the room until you tell them to stop. This is their signal to pair up with the closest person to them. They swap papers and draw each other’s eyes. When they’re done, they need to give their papers back and stand walking around again. This time when you say stop, they need to draw their new partner’s nose. Keep going until you’ve covered each feature, hair and even accessories. Then everyone gets to show off their personal piece of art.",
+    body: "Everyone needs a <h3> piece </h3>  of paper and a pen or pencil for this activity. They should write their name on the bottom of their paper. Now everyone needs to wander around the room until you tell them to stop. This is their signal to pair up with the closest person to them. They swap papers and draw each other’s eyes. When they’re done, they need to give their papers back and stand walking around again. This time when you say stop, they need to draw their new partner’s nose. Keep going until you’ve covered each feature, hair and even accessories. Then everyone gets to show off their personal piece of art.",
   },
 
   {
     titel: "	Counting	",
-    body: "It sounds so simple. All you have to do is count up to three as a team. But once you get going, this energiser is surprisingly tricky. Divide participants into small group of up to six and have them sit or stand in small circles. Now all they have to do is count together, taking turns to count to three. After a few rounds of this, swap the number one for a clap, so instead of saying the word, you physically clap your hands together. After a few rounds of this, clap instead of saying one and then click your fingers instead of saying two. Finally, when you’ve done this for a while, clap for one, click your fingers for two and then stamp your foot for three. When someone gets an action wrong, they’re out. Keep playing until you have one last person standing.",
+    body: "It sounds so simple. <h3> piece </h3> All you have to do is count up to three as a team. But once you get going, this energiser is surprisingly tricky. Divide participants into small group of up to six and have them sit or stand in small circles. Now all they have to do is count together, taking turns to count to three. After a few rounds of this, swap the number one for a clap, so instead of saying the word, you physically clap your hands together. After a few rounds of this, clap instead of saying one and then click your fingers instead of saying two. Finally, when you’ve done this for a while, clap for one, click your fingers for two and then stamp your foot for three. When someone gets an action wrong, they’re out. Keep playing until you have one last person standing.",
   },
   {
     titel: "	Human Rock, Paper, Scissors	",
-    body: "Before you begin the game, decide on a pose that will represent choosing rock, paper or scissors. For example, lie on the floor for paper; bend your knees and hold your arms in front of you as if you’re holding a barrel for rock; clap your hands above your head for scissors. Once you’ve agreed your poses, divide everyone into two teams and give them 5 minutes to agree their strategies. Paper beats rock, which beats scissors, which beats paper. You’ll be playing five rounds – highest score wins. When you’re ready, the facilitator will count down to the signal to go: Paper, Rock, Scissors! On the word scissors, everyone needs to make their pose. You can adapt this game to a number of different themes, maybe relating to your business. For example, if you run a wedding venue, you could play Best Man, Mother of the Bride, Chief Bridesmaid instead of Rock, Paper, Scissors.",
+    body: "Before you begin the game, <h3> piece </h3> decide on a pose that will represent choosing rock, paper or scissors. For example, lie on the floor for paper; bend your knees and hold your arms in front of you as if you’re holding a barrel for rock; clap your hands above your head for scissors. Once you’ve agreed your poses, divide everyone into two teams and give them 5 minutes to agree their strategies. Paper beats rock, which beats scissors, which beats paper. You’ll be playing five rounds – highest score wins. When you’re ready, the facilitator will count down to the signal to go: Paper, Rock, Scissors! On the word scissors, everyone needs to make their pose. You can adapt this game to a number of different themes, maybe relating to your business. For example, if you run a wedding venue, you could play Best Man, Mother of the Bride, Chief Bridesmaid instead of Rock, Paper, Scissors.",
   },
 ];
 
@@ -37,7 +37,7 @@ function generateEnergizer() {
   console.log(energizers[index].titel);
 
   result.innerText = energizers[index].titel;
-  body.innerText = energizers[index].body;
+  body.innerHTML = energizers[index].body;
 
   console.log("ACTIVITY", energizers[index].titel);
 }
