@@ -412,13 +412,13 @@ h3 {
   height: 100%;
   overflow: visible;
   margin-left: 70%;
-  margin-top:5%;
+  margin: top 0;;
   z-index: 1;
 }
 
 #imageEnergy {
   position: absolute;
-  width: 90%;
+  width: 80%;
   bottom: 0px;
 }
 
@@ -453,6 +453,14 @@ h3 {
   color: #ffffff;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.generate-energizer-button:active {
+  background: #6C9492;
+}
+
+.generate-energizer-button:hover,
+.generate-energizer-button:focus {
+  cursor: pointer;
 }
 
 .body-text-holder {
