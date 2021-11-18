@@ -207,6 +207,7 @@ function generateQuestion() {
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
+var savebtn = document.getElementById("savebutton")
 
 
 btn.onclick = function () {
@@ -222,3 +223,7 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+savebtn.onclick = function () {
+  modal.style.display = "none";
+}
