@@ -29,7 +29,6 @@ h3 {
   font-weight: 500;
   font-size: 30px;
 }
-
 .split {
   height: 100%;
   width: 50%;
@@ -303,9 +302,9 @@ h3 {
   border-radius: 30px;
   animation-name: animatetop;
   animation-duration: 0.4s;
-  color: #4A3C67;
-margin: auto;
-margin-top: 10%;
+  color: #4a3c67;
+  margin: auto;
+  margin-top: 10%;
 }
 
 .filter_header {
