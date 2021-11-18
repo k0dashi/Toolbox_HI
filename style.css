@@ -237,7 +237,6 @@ h3 {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
-  align-items: center;
   justify-content: center;
 }
 
@@ -297,7 +296,6 @@ h3 {
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 0px;
-  margin: 30px 30px 0px 30px;
   width: 444px;
   height: 444px;
   overflow: hidden;
@@ -305,7 +303,9 @@ h3 {
   border-radius: 30px;
   animation-name: animatetop;
   animation-duration: 0.4s;
-  color: #4a3c67;
+  color: #4A3C67;
+margin: auto;
+margin-top: 10%;
 }
 
 .filter_header {
@@ -347,6 +347,9 @@ h3 {
   border-radius: 50%;
 }
 
+#filtertext {
+  margin-left: 20px;
+}
 .container:hover input ~ .checkmark {
   background-color: #4a3c67;
 }
@@ -369,10 +372,10 @@ h3 {
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
-  top: 12px;
-  left: 12px;
-  width: 8px;
-  height: 8px;
+  top: 10px;
+  left: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: white;
 }
