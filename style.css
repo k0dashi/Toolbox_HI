@@ -29,6 +29,28 @@ h3 {
   font-weight: 500;
   font-size: 30px;
 }
+
+h3 {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: "Encode Sans";
+  font-style: bold;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h5 {
+  font-family: "Encode Sans";
+  font-style: bold;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 .split {
   height: 100%;
   width: 50%;
@@ -296,7 +318,7 @@ h3 {
   padding-top: 20px;
   padding-bottom: 0px;
   width: 444px;
-  height: 500px;
+  height: 444px;
   overflow: hidden;
   box-shadow: 0px 10px 12px rgba(65, 58, 80, 0.5);
   border-radius: 30px;
