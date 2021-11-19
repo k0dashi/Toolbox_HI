@@ -139,6 +139,32 @@ h5 {
   margin-left: 220px;
 }
 
+#about {
+
+cursor: pointer;
+background: #7E6F9C;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 10px 12px rgba(94, 82, 117, 0.5);
+border-radius: 35px;
+padding: 10px 14px;
+font-family: Encode Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  bottom: 0px;
+}
+
+.aboutus {
+  height: 100%;
+  width: 100%;
+  margin-left: 80%;
+
+  z-index: 1;
+}
+
 /* -------------- Check-in page -------------*/
 #check-in {
   width: 40%;
@@ -452,6 +478,7 @@ h5 {
   margin-bottom: 200px;
   left: 15%;
   overflow: visible;
+  
   /* set dynamic */
 }
 
@@ -536,4 +563,17 @@ h5 {
 .boldtext {
   font-family: Helvetica;
   font-weight: bold;
+}
+
+#footer {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
 }
