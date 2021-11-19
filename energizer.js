@@ -103,7 +103,7 @@ function generateEnergizer() {
   console.log("ACTIVITY", energizers[index].titel);
 }
 
-New.onclick = function () {
+ew.onclick = function () {
   let newArray = [];
   let randomText = [];
   randomText = text[Math.floor(Math.random() * text.length)];
