@@ -8,6 +8,7 @@ let filters = [];
 let connectionClicked = false;
 let funClicked = false;
 let workClicked = false;
+let allClicked = false;
 
 // ------ Check-in questions ------
 
@@ -173,41 +174,43 @@ function generateQuestion() {
   }
 }
 
+// ------- ADDING TAGS --------
+
 let fun = document.getElementById("fun");
 fun.addEventListener("click", function () {
-  if (!funClicked) {
-    filters.push("fun");
-  } else {
-    filters = filters.filter((x) => x != "fun");
-  }
-
+  filters = [];
+  filters.push("fun");
+  console.log("Now FUN is happening");
   funClicked = !funClicked;
 });
 
 let connection = document.getElementById("connection");
 connection.addEventListener("click", function () {
-  if (!connectionClicked) {
-    filters.push("connection");
-  } else {
-    filters = filters.filter((x) => x != "connection");
-  }
+  filters = [];
+  filters.push("connection");
+  console.log("Now CONNECTION is happening");
   connectionClicked = !connectionClicked;
 });
 
 let work = document.getElementById("work");
 work.addEventListener("click", function () {
-  if (!workClicked) {
-    filters.push("work");
-  } else {
-    filters = filters.filter((x) => x != "test");
-  }
+  filters = [];
+  filters.push("work");
+  console.log("Now WORK is happening");
   workClicked = !workClicked;
+});
+
+let all = document.getElementById("all");
+all.addEventListener("click", function () {
+  filters = [];
+  console.log("Now ALL is happening");
+  allClicked = !allClicked;
 });
 
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
-var savebtn = document.getElementById("savebutton")
+var savebtn = document.getElementById("savebutton");
 
 btn.onclick = function () {
   modal.style.display = "block";
@@ -225,4 +228,4 @@ window.onclick = function (event) {
 
 savebtn.onclick = function () {
   modal.style.display = "none";
-}
+};
