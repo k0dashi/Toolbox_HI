@@ -448,9 +448,8 @@ h5 {
 .energizer-content-holder {
   position: relative;
   width: 70%;
-  height: 100%;
   top: 5%;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   left: 15%;
   overflow: visible;
   /* set dynamic */
