@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-
     <title>Check-in Questions</title>
     <link
       rel="shortcut icon"
@@ -21,7 +20,6 @@
       href="https://fonts.googleapis.com/css?family=Encode+Sans"
     />
   </head>
-
   <body>
     <div class="check-in-page-main">
       
@@ -50,12 +48,10 @@
         </svg>
      
     </div>
-
     <!-- Dog photo  -->
     <div class="checkinDog">
         <img id="imageCheckin" src="https://i.ibb.co/SJKt2DT/dogunsplash-purple.png">
     </div>
-
     <!-- Blob  -->
     <div class="blob02" id="check-in">
         <?xml version="1.0" encoding="utf-8"?>
@@ -80,7 +76,7 @@
           <path
             class="st0"
             d="M517.3,273.9c-70.8-13.7-81.6-130.3-152.4-144C285,114.4,226,223.1,147.2,202.1C75.8,183.2,23.5,104.7,14.7,37
-	c-1.4-11.1-1.1-21.8,0.6-32.2"
+    c-1.4-11.1-1.1-21.8,0.6-32.2"
           />
         </svg>
       </div>
@@ -90,9 +86,7 @@
         
         <div class="present-question-text"><h3>
           Your check-in question for today:</h3>
-
         <div id="Check-in-text" class="check-in-question-text">What’s one thing that brings you energy and joy</div>
-
         <div id="generateButton">
           <button onclick="generateQuestion()" class="generate-checkIn-button">GET ANOTHER</button>
         </div>
@@ -109,12 +103,10 @@
     <path d="M30 38L53 38" stroke="white" stroke-width="3" stroke-linecap="round"/>
     <circle cx="24.5" cy="38.5" r="5" stroke="white" stroke-width="3"/>
   </svg>
-
 </button>
   </div>
  <!-- The Modal -->
 <div id="myModal" class="modal">
-
    <!-- Modal content -->
 <div class="modal-content">  
   <span class="close">&times;</span>
@@ -123,30 +115,31 @@
   </div>
   <div class="filter_body"> <h2 style="text-align:left;">
         <label class="container"><span id="filtertext">To know your team</span>
-          <input type="radio"  name="radio">
+          <input type="radio"  id="connection" name="question" >
           <span class="checkmark"></span>
         </label><br>
         <label class="container"><span id="filtertext">Work related</span>
-          <input type="radio" name="radio">
+          <input type="radio"  id="work" name="question" >
           <span class="checkmark"></span>
         </label><br>
         <label class="container"><span id="filtertext"></span>Just fun!</span>
-          <input type="radio" id="fun" name="radio">
+          <input type="radio"  id="fun" name="question">
+          <span class="checkmark"></span>
+        </label><br>
+        <label class="container"><span id="filtertext"></span>I want all of them!</span>
+          <input type="radio" id="all" name="question">
           <span class="checkmark"></span>
         </label><br></h2>
       </div>
         <div class="filter_footer">
     <button id="savebutton">Save</button></div>
   </div>
-
 </div> 
-
 </div>
 </div>
   </div>
       </div>
     </div>
-
     <script src="main.js"></script>
   </body>
 </html>
