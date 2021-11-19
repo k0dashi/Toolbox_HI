@@ -496,7 +496,7 @@ h5 {
 .body-text {
   font-family: Encode Sans;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 16px;
   color: #2a4443;
   padding: 100px;
@@ -532,4 +532,9 @@ h5 {
   font-size: 20px;
   text-align: left;
   margin-top: 30px;
+}
+
+.boldtext {
+  font-family: Helvetica;
+  font-weight: bold;
 }
