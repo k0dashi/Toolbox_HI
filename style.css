@@ -287,8 +287,8 @@ h5 {
 }
 
 #savebutton:active {
-  background: #29213A;
-  border: 3px solid #29213A;
+  background: #29213a;
+  border: 3px solid #29213a;
 }
 .filter_header {
   position: relative;
@@ -434,7 +434,7 @@ h5 {
   height: 100%;
   overflow: visible;
   margin-left: 70%;
-  margin: top 0;;
+  margin: top 0;
   z-index: 1;
 }
 
@@ -478,7 +478,7 @@ h5 {
   margin-bottom: 30px;
 }
 .generate-energizer-button:active {
-  background: #6C9492;
+  background: #6c9492;
 }
 
 .generate-energizer-button:hover,
@@ -496,7 +496,6 @@ h5 {
 .body-text {
   font-family: Encode Sans;
   font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   color: #2a4443;
   padding: 100px;
