@@ -76,6 +76,11 @@ let energizers = [
     titel: "Love Your Neighbour?",
     body: "In this fun and active group game, participants sit in a circle, with one person in the middle. The person in the middle asks different questions that force people to quickly get up and race to find another seat. One person is always left in the middle without a seat. The game is fast-paced and highly physical and quickly generates laughter. An effective game to promote group development or simply to boost energy.<p> 10-40 people <br>5-30 mins <h4> Step 2: </h4> That person can reply with YES or NO. If she replies YES, then that means that the two people sitting to her left and right must to switch seats. The goal of the person in the middle is always to obtain a seat. When the two switch, he tries to quickly sit in one of their chairs. One person always ends up without a seat. <p>If she replies NO, she must extend her answer with “But I love people…” and add any characteristic that will apply to members of the group. For example “No, but I love people with long hair” or “No, but I love people who speak French.” Then everyone with that characteristic must get up and find a new seat. <p>Someone is always left in the middle and the process repeats. <p>The twist: Every time an empty seat appears to one’s left, they must quickly sit on it. This results in a chain reaction, where the whole group jumps from one chair to the next, making it more difficult to find a free seat to occupy. <h4> Step 3: </h4> End the exercise before it reaches it’s peak, when the group is still laughing and having fun. Generally about 7 - 10 rounds.",
   },
+
+  {
+    titel: "DANCE DANCE DANCE",
+    body: "It is time to DANCE! Go ahead and show off your best moves! <br>  <iframe width='560' height='315' src='https://www.youtube.com/embed/tgbNymZ7vqY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+  },
 ];
 
 function getRandomNumber(min, max) {
