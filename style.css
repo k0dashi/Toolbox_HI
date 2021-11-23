@@ -30,6 +30,27 @@ h3 {
   font-size: 30px;
 }
 
+h3 {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: "Encode Sans";
+  font-style: bold;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h5 {
+  font-family: "Encode Sans";
+  font-style: bold;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 .split {
   height: 100%;
   width: 50%;
@@ -93,6 +114,7 @@ h3 {
   height: 100%;
   margin-left: -50%;
 }
+
 #imageRight {
   position: absolute;
   width: 100%;
@@ -117,7 +139,38 @@ h3 {
   margin-left: 220px;
 }
 
+#about {
+
+cursor: pointer;
+background: #7E6F9C;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 10px 12px rgba(94, 82, 117, 0.5);
+border-radius: 35px;
+padding: 10px 14px;
+font-family: Encode Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  bottom: 0px;
+}
+
+.aboutus {
+  height: 100%;
+  width: 100%;
+  margin-left: 80%;
+
+  z-index: 1;
+}
+
 /* -------------- Check-in page -------------*/
+.chekin_body {
+height: 100%;
+width: 100%;
+}
+
 #check-in {
   width: 40%;
 }
@@ -166,7 +219,6 @@ h3 {
 .present-question-text {
   width: 100%;
   position: relative;
-  margin-bottom: 10px;
   font-weight: 500;
   text-align: center;
   margin-top: 30px;
@@ -181,6 +233,7 @@ h3 {
   font-size: 48px;
   color: #ffffff;
   margin-top: 15px;
+  margin-bottom: 20px;
   background-color: transparent;
 }
 
@@ -236,23 +289,22 @@ h3 {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
-  align-items: center;
   justify-content: center;
 }
 
 /* Modal Content/Box */
 
 #savebutton {
-position: relative;
-cursor: pointer;
-width: 169px;
-height: 52px;
-background: #4A3C67;
-border: 3px solid #4A3C67;
-box-sizing: border-box;
-box-shadow: 0px 8px 10px rgba(74, 60, 103, 0.2);
-border-radius: 35px;
-font-family: Encode Sans;
+  position: relative;
+  cursor: pointer;
+  width: 169px;
+  height: 52px;
+  background: #4a3c67;
+  border: 3px solid #4a3c67;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 10px rgba(74, 60, 103, 0.2);
+  border-radius: 35px;
+  font-family: Encode Sans;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -265,20 +317,24 @@ font-family: Encode Sans;
   transform: translate(-50%, -50%);
 }
 
+#savebutton:active {
+  background: #29213a;
+  border: 3px solid #29213a;
+}
 .filter_header {
-  position:relative;
+  position: relative;
   margin-top: 20px;
   text-align: center;
 }
+
 /* The Close Button */
 .close {
   font-family: Nunito;
-  color:#4A3C67;
+  color: #4a3c67;
   float: right;
   font-size: 34px;
   font-weight: bold;
-  margin-top: 20px;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .close:hover,
@@ -290,20 +346,31 @@ font-family: Encode Sans;
 
 /* Modal Content */
 .modal-content {
+  background: #ffffff;
   position: relative;
-  margin: auto;
-  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
   width: 444px;
-  height: 444px;
-  background: #FFFFFF;
+  height: 500px;
+  overflow: hidden;
   box-shadow: 0px 10px 12px rgba(65, 58, 80, 0.5);
   border-radius: 30px;
   animation-name: animatetop;
-  animation-duration: 0.4s;
-  color: #4A3C67;
-  margin-top: 20%;
+  animation-duration: 0.8s;
+  color: #4a3c67;
+  margin: auto;
+  margin-top: 10%;
 }
 
+.filter_header {
+  text-align: center;
+}
+
+.filter_body {
+  margin-left: 40px;
+}
 .container {
   display: block;
   position: relative;
@@ -332,16 +399,19 @@ font-family: Encode Sans;
   height: 32px;
   width: 32px;
   background-color: white;
-  border: 3px solid #4A3C67;
+  border: 3px solid #4a3c67;
   border-radius: 50%;
 }
 
+#filtertext {
+  margin-left: 20px;
+}
 .container:hover input ~ .checkmark {
-  background-color: #4A3C67;
+  background-color: #4a3c67;
 }
 
 .container input:checked ~ .checkmark {
-  background-color: #4A3C67;
+  background-color: #4a3c67;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -358,12 +428,12 @@ font-family: Encode Sans;
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
- 	top: 12px;
-	left: 12px;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: white;
+  top: 10px;
+  left: 10px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
 }
 
 @keyframes animatetop {
@@ -389,15 +459,31 @@ font-family: Encode Sans;
   background: linear-gradient(180deg, #abd2d0 0%, #427d7a 100%);
   mix-blend-mode: normal;
 }
+.energyDog {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: visible;
+  margin-left: 70%;
+  margin: top 0;
+  z-index: 1;
+}
+
+#imageEnergy {
+  position: absolute;
+  width: 80%;
+  bottom: 0px;
+}
 
 /* parent */
 .energizer-content-holder {
   position: relative;
-  width: 1100px;
-  height: 1100px;
-  top: 10%;
-  margin-bottom: 30px;
-  left: 25%;
+  width: 70%;
+  top: 5%;
+  margin-bottom: 80px;
+  left: 15%;
+  overflow: visible;
+  
   /* set dynamic */
 }
 
@@ -422,10 +508,18 @@ font-family: Encode Sans;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.generate-energizer-button:active {
+  background: #6c9492;
+}
+
+.generate-energizer-button:hover,
+.generate-energizer-button:focus {
+  cursor: pointer;
+}
 
 .body-text-holder {
   position: static;
-  width: 100vh;
+  width: 100%;
   border-radius: 30px;
   background-color: white;
 }
@@ -433,12 +527,11 @@ font-family: Encode Sans;
 .body-text {
   font-family: Encode Sans;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 16px;
-  line-height: 140%;
   color: #2a4443;
   padding: 100px;
-  padding-right: 150px;
+  padding-right: 200px;
   line-height: 240%;
 }
 
@@ -471,3 +564,41 @@ font-family: Encode Sans;
   text-align: left;
   margin-top: 30px;
 }
+
+.boldtext {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+#footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 40px;
+    width: 100%;
+    font-family: Encode Sans;
+    color: white;
+    text-align: center;
+    height: 38px;
+  }
+
+  #linkedin:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  #linkedin:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: Encode Sans;
+    color: white;
+    text-align: center;
+    height: 60px;
+  }
